@@ -26,7 +26,7 @@ jobs:
           MSTEAMS_WEBHOOK_RANSOMWARE: ${{ secrets.MSTEAMS_WEBHOOK_RANSOMWARE }} 
           MSTEAMS_WEBHOOK_IOC: ${{ secrets.MSTEAMS_WEBHOOK_IOC }} 
         run: |
-          python3 TeamsIntelBot.py 
+          python3 TeamsIntelBot.py -d -r 
       - name: save changes
         run: |
           git config --global user.email "bot-parser@users.noreply.github.com"
