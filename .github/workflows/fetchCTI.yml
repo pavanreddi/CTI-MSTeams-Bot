@@ -9,38 +9,28 @@ jobs:
   CTI:
     runs-on: ubuntu-latest
     timeout-minutes: 30
+    environment: CI
     steps:
-      - name: Checkout the repository
-        uses: actions/checkout@v2
-
-      - name: Set up Python 3.10
-        uses: actions/setup-python@v2
+      - name: checkout the repo
+        uses: actions/checkout@v3
+      - name: Use Python 3.10 
+        uses: actions/setup-python@v4
         with:
-          python-version: '3.10'
-
-      - name: Install dependencies
+          python-version: '3.10' 
+      - name: install dependencies
         run: |
           pip3 install -r requirements.txt
-
-      - name: Run scraper
+      - name: run scraper
         env:
-          MSTEAMS_WEBHOOK_FEED: ${{ secrets.MSTEAMS_WEBHOOK_FEED }}
-          MSTEAMS_WEBHOOK_RANSOMWARE: ${{ secrets.MSTEAMS_WEBHOOK_RANSOMWARE }}
-          MSTEAMS_WEBHOOK_IOC: ${{ secrets.MSTEAMS_WEBHOOK_IOC }}
+          MSTEAMS_WEBHOOK_FEED: ${{ secrets.MSTEAMS_WEBHOOK_FEED }} 
+          MSTEAMS_WEBHOOK_RANSOMWARE: ${{ secrets.MSTEAMS_WEBHOOK_RANSOMWARE }} 
+          MSTEAMS_WEBHOOK_IOC: ${{ secrets.MSTEAMS_WEBHOOK_IOC }} 
         run: |
-          python3 TeamsIntelBot.py -d -r
-
-      - name: Configure Git
+          python3 TeamsIntelBot.py 
+      - name: save changes
         run: |
           git config --global user.email "bot-parser@users.noreply.github.com"
           git config --global user.name "Bot-Parser"
-
-      - name: Commit changes
-        run: |
-          git add .
-          git commit -m "Automated commit by Bot-Parser"
-      
-      - name: Push changes
-        run: |
-          git push https://$GITHUB_ACTOR:$GITHUB_TOKEN@github.com/pavanreddi/CTI-MSTeams-Bot.git HEAD:main
-
+          DATE=$(date -Iseconds)
+          git commit --all --message "Updated by Bot-Parser on $DATE" || echo "no changes to commit"
+          git push
