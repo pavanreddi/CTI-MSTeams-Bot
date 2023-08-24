@@ -82,10 +82,10 @@ def GetRansomwareUpdates():
         else: 
             url = ""
         
-        if Entries['website']:
-            website = "<a href=\"" + Entries['website'] + "\">" + Entries['website'] + "</a>"
-        else: 
-            website =  "<a href=\"https://www.google.com/search?q=" +  Entries["post_title"].replace("*.", "") + "\">" + Entries["post_title"] + "</a>"
+        #if Entries['website']:
+        #    website = "<a href=\"" + Entries['website'] + "\">" + Entries['website'] + "</a>"
+        #else: 
+        #    website =  "<a href=\"https://www.google.com/search?q=" +  Entries["post_title"].replace("*.", "") + "\">" + Entries["post_title"] + "</a>"
             
 
         OutputMessage = "<b>Group : </b>"
