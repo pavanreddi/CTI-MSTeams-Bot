@@ -84,7 +84,7 @@ def GetRansomwareUpdates():
         
         if Entries['website']:
             #website = "<a href=\"" + Entries['website'] + "\">" + Entries['website'] + "</a>"
-            website = null
+            website =  "Link Removed"
         else: 
             website =  "<a href=\"https://www.google.com/search?q=" +  Entries["post_title"].replace("*.", "") + "\">" + Entries["post_title"] + "</a>"
             
