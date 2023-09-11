@@ -113,7 +113,6 @@ def GetRssFromUrl(RssItem):
     NewsFeed = feedparser.parse(RssItem[0])
     DateActivity = ""
     IsInitialRun = False
-    #print('DEBUG --> ' +  RssItem[1])
 
     for RssObject in reversed(NewsFeed.entries):
 
@@ -122,7 +121,6 @@ def GetRssFromUrl(RssItem):
         except: 
             DateActivity = time.strftime('%Y-%m-%dT%H:%M:%S', RssObject.updated_parsed)
         
-        # Correction for issue #1 : https://github.com/JMousqueton/CTI-MSTeams-Bot/issues/1
         try:
             TmpObject = FileConfig.get('Rss', RssItem[1])
         except:
@@ -261,7 +259,7 @@ def SendReminder():
         OutputMessage += "<br><br>"
         OutputMessage += "Coded with ❤️ by JMousqueton"
         OutputMessage += "<BR>"
-        OutputMessage += "Code : https://github.com/JMousqueton/CTI-MSTeams-Bot"
+        OutputMessage += ""
         today = today.strftime(format)
         FileConfig.set('Misc', "reminder", str(today))
         if options.Debug:
@@ -313,7 +311,6 @@ if __name__ == '__main__':
 
     # Get Microsoft Teams Webhook from Github Action CI:Env.  
     webhook_feed=os.getenv('MSTEAMS_WEBHOOK_FEED')
-    #webhook_ransomware=os.getenv('MSTEAMS_WEBHOOK_RANSOMWARE')
     webhook_ioc=os.getenv('MSTEAMS_WEBHOOK_IOC')
 
     # expects the configuration file in the same directory as this script by default, replace if desired otherwise
@@ -346,9 +343,6 @@ if __name__ == '__main__':
             continue
         GetRssFromUrl(RssItem)
         CreateLogString(RssItem[1])
-
-    #GetRansomwareUpdates()
-    #CreateLogString("Ransomware List")
     
     if options.Domains: 
         GetRedFlagDomains()
