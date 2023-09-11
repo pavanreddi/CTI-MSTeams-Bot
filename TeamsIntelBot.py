@@ -324,8 +324,8 @@ if __name__ == '__main__':
         sys.exit("Please use Python 3.10+")
     if (str(webhook_feed) == "None" and not options.Debug):
              sys.exit("Please use a MSTEAMS_WEBHOOK_FEED variable")
-    if (str(webhook_ransomware) == "None" and not options.Debug):
-             sys.exit("Please use a MSTEAMS_WEBHOOK_RANSOMWARE variable")
+    #if (str(webhook_ransomware) == "None" and not options.Debug):
+             #sys.exit("Please use a MSTEAMS_WEBHOOK_RANSOMWARE variable")
     if (str(webhook_ioc) == "None" and not options.Debug):
              sys.exit("Please use a MSTEAMS_WEBHOOK_IOC variable")
 
@@ -349,8 +349,8 @@ if __name__ == '__main__':
         GetRssFromUrl(RssItem)
         CreateLogString(RssItem[1])
 
-    GetRansomwareUpdates()
-    CreateLogString("Ransomware List")
+    #GetRansomwareUpdates()
+    #CreateLogString("Ransomware List")
     
     if options.Domains: 
         GetRedFlagDomains()
