@@ -14,7 +14,7 @@ proof point = 2023-09-21T08:00:00
 us-cert cisa = 2023-09-18T21:27:04
 fr-cert alertes = 2023-07-26T09:01:39
 fr-cert avis = 2023-09-25T09:10:21
-hacker news = 2023-09-26T09:49:00
+hacker news = 2023-09-26T10:32:00
 schneier on security = 2023-09-22T21:09:59
 ncsc = 2122-12-17T00:00:00
 center of internet security = 2023-09-22T00:36:18
@@ -158,6 +158,7 @@ cyphbit = 2023-09-16 17:33:53.301161
 threeam = 2023-09-22 13:17:02.671189
 cryptbb = 2023-09-15 22:33:41.705485
 ciphbit = 2023-09-16 17:33:53.301161
+losttrust = 2023-09-26 11:10:43.854110
 
 [Misc]
 redflagdomains = 2023-09-25
