@@ -173,5 +173,5 @@ ranstreet = 2023-12-21 00:08:22.617850
 
 [Misc]
 redflagdomains = 2023-12-23
-reminder = 2023-11-22
+reminder = 2023-12-24
 
