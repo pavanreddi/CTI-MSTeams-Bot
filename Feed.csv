@@ -31,5 +31,5 @@ https://research.nccgroup.com/category/threat-intelligence/feed/,NCC
 https://unit42.paloaltonetworks.com/feed/,Unit42
 https://api.msrc.microsoft.com/update-guide/rss,MSRC Security Update
 https://filestore.fortinet.com/fortiguard/rss/ir.xml,Fortigate PSIRT Advisories
-https://trust.zscaler.com/blog-feed,zscaler-security-advisories
+#https://trust.zscaler.com/blog-feed,zscaler-security-advisories
 https://www.tenable.com/security/feed , Tenable Product Security Advisories
