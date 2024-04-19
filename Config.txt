@@ -14,7 +14,7 @@ proof point = 2024-04-11T14:13:35
 us-cert cisa = 2024-04-17T16:23:11
 fr-cert alertes = 2024-04-12T12:28:06
 fr-cert avis = 2024-04-18T13:46:59
-hacker news = 2024-04-19T06:16:00
+hacker news = 2024-04-19T11:08:00
 schneier on security = 2024-04-18T11:06:45
 ncsc = 2122-12-17T00:00:00
 center of internet security = 2024-04-17T19:51:17
@@ -187,7 +187,7 @@ redransomware = 2024-03-28 21:23:50.232720
 darkvault = 2024-04-15 19:20:07.354469
 gookie = 2024-04-19 08:15:03.442959
 disposseor = 2024-04-19 09:39:53.973182
-dispossessor = 2024-04-19 11:39:33.862695
+dispossessor = 2024-04-19 12:35:03.889975
 
 [Misc]
 redflagdomains = 2024-04-18
