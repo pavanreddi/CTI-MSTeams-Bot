@@ -1,5 +1,5 @@
 [Rss]
-graham cluley = 2024-05-09T15:34:53
+graham cluley = 2024-05-09T21:17:16
 threatpost = 2022-08-31T12:57:48
 krebs on security = 2024-05-07T17:36:14
 dark reading = 2027-03-26T22:00:00
@@ -17,7 +17,7 @@ fr-cert avis = 2024-02-08T12:01:09
 hacker news = 2024-05-09T17:55:00
 schneier on security = 2024-02-08T12:00:19
 ncsc = 2122-12-17T00:00:00
-center of internet security = 2024-05-07T20:53:37
+center of internet security = 2024-05-09T16:51:10
 binary defense = 2024-04-23T18:15:15
 securelist = 2024-05-09T10:00:28
 checkpoint research = 2024-05-06T11:21:36
@@ -351,6 +351,6 @@ ransomed = 2023-09-09 15:07:24.335880
 cloak = 2023-08-24 07:42:45.735883
 
 [Misc]
-redflagdomains = 2024-05-08
+redflagdomains = 2024-05-09
 reminder = 2024-04-29
 
