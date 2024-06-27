@@ -41,7 +41,7 @@ malpedia = 2022-09-20T15:01:28
 databreaches = 2022-10-10T11:40:57
 unit42 = 2024-06-26T10:00:12
 google tag = 2024-06-26T10:00:00
-msrc security update = 2024-06-26T07:00:00
+msrc security update = 2024-06-27T07:00:00
 fortigate psirt advisories = 2024-06-11T07:00:00
 zscaler-security-advisories = 2024-02-11T20:30:40
 	tenable product security advisories = 2024-02-06T16:07:31
@@ -351,6 +351,6 @@ ransomed = 2023-09-09 15:07:24.335880
 cloak = 2023-08-24 07:42:45.735883
 
 [Misc]
-redflagdomains = 2024-06-26
+redflagdomains = 2024-06-27
 reminder = 2024-05-31
 
