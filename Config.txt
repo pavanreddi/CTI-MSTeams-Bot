@@ -215,5 +215,5 @@ lynx = 2024-07-29 05:54:37.706833
 
 [Misc]
 redflagdomains = 2024-08-03
-reminder = 2024-07-03
+reminder = 2024-08-04
 
