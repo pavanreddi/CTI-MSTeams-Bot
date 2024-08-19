@@ -9,7 +9,7 @@ cisco = 2024-08-15T12:00:01
 information security magazine = 2024-08-19T16:15:00
 google = 2022-10-12T12:00:00
 trend micro = 2024-08-15T00:00:00
-bleeping computer = 2024-08-19T20:17:38
+bleeping computer = 2024-08-19T20:51:17
 proof point = 2024-08-12T19:11:47
 us-cert cisa = 2024-08-12T17:38:58
 fr-cert alertes = 2024-08-09T14:35:34
@@ -287,6 +287,6 @@ phoenixcryptolocker = 2021-03-21 00:00:00.000000
 astroteam = 2021-04-05 00:00:00.000000
 
 [Misc]
-redflagdomains = 2024-08-18
+redflagdomains = 2024-08-19
 reminder = 2024-08-04
 
