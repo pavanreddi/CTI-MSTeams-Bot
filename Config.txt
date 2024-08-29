@@ -1,5 +1,5 @@
 [Rss]
-graham cluley = 2024-08-28T09:24:40
+graham cluley = 2024-08-29T09:32:04
 threatpost = 2022-08-31T12:57:48
 krebs on security = 2024-08-28T23:55:17
 dark reading = 2027-03-26T22:00:00
@@ -39,7 +39,7 @@ version = 2023-05-15T09:31:25
 redcanary = 2024-01-31T16:00:19
 malpedia = 2022-09-20T15:01:28
 databreaches = 2022-10-10T11:40:57
-unit42 = 2024-08-23T10:00:21
+unit42 = 2024-08-29T10:00:23
 google tag = 2024-08-14T19:00:00
 msrc security update = 2024-08-22T07:00:00
 fortigate psirt advisories = 2024-08-13T07:00:00
