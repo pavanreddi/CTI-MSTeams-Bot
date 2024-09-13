@@ -288,6 +288,6 @@ astroteam = 2021-04-05 00:00:00.000000
 roadsweep 00 = 00:00.000000 = 2022-07-18
 
 [Misc]
-redflagdomains = 2024-09-12
+redflagdomains = 2024-09-13
 reminder = 2024-09-05
 
