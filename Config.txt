@@ -1,5 +1,5 @@
 [Rss]
-graham cluley = 2024-09-17T07:54:49
+graham cluley = 2024-09-17T19:24:18
 threatpost = 2022-08-31T12:57:48
 krebs on security = 2024-09-13T12:16:45
 dark reading = 2027-03-26T22:00:00
@@ -290,6 +290,6 @@ valencialeaks = 2024-09-10 03:45:00.123456
 orca = 2024-09-16 11:12:24.408021
 
 [Misc]
-redflagdomains = 2024-09-16
+redflagdomains = 2024-09-17
 reminder = 2024-09-05
 
