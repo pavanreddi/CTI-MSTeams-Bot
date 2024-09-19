@@ -9,7 +9,7 @@ cisco = 2024-09-19T15:00:03
 information security magazine = 2024-09-19T16:15:00
 google = 2022-10-12T12:00:00
 trend micro = 2024-09-19T00:00:00
-bleeping computer = 2024-09-19T19:15:57
+bleeping computer = 2024-09-19T20:56:02
 proof point = 2024-09-12T13:33:22
 us-cert cisa = 2024-09-19T15:28:14
 fr-cert alertes = 2024-09-10T12:22:00
@@ -34,7 +34,7 @@ eu-enisa publications = 2024-09-19T06:00:00
 att = 2024-09-18T10:00:00
 microsoft sentinel = 2024-09-16T12:24:24
 ncc = 2024-02-22T16:35:43
-sans = 2024-09-19T02:00:01
+sans = 2024-09-19T20:14:39
 version = 2023-05-15T09:31:25
 redcanary = 2024-09-19T13:49:03
 malpedia = 2022-09-20T15:01:28
@@ -290,6 +290,6 @@ valencialeaks = 2024-09-18 09:47:16.136675
 orca = 2024-09-18 13:00:34.104943
 
 [Misc]
-redflagdomains = 2024-09-18
+redflagdomains = 2024-09-19
 reminder = 2024-09-05
 
