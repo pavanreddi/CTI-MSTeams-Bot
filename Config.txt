@@ -39,7 +39,7 @@ version = 2023-05-15T09:31:25
 redcanary = 2024-09-24T14:58:22
 malpedia = 2022-09-20T15:01:28
 databreaches = 2022-10-10T11:40:57
-unit42 = 2024-09-23T21:00:55
+unit42 = 2024-09-24T21:00:32
 google tag = 2024-09-12T23:30:00
 msrc security update = 2024-09-19T14:12:40
 
@@ -290,6 +290,6 @@ valencialeaks = 2024-09-18 09:47:16.136675
 orca = 2024-09-18 13:00:34.104943
 
 [Misc]
-redflagdomains = 2024-09-23
+redflagdomains = 2024-09-24
 reminder = 2024-09-05
 
