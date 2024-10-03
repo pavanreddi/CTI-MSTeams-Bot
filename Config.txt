@@ -291,6 +291,6 @@ orca = 2024-09-18 13:00:34.104943
 nitrogen = 2024-10-03 13:07:28.780200
 
 [Misc]
-redflagdomains = 2024-10-02
+redflagdomains = 2024-10-03
 reminder = 2024-09-05
 
