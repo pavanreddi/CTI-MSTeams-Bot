@@ -39,9 +39,9 @@ version = 2023-05-15T09:31:25
 redcanary = 2024-10-10T13:15:51
 malpedia = 2022-09-20T15:01:28
 databreaches = 2022-10-10T11:40:57
-unit42 = 2024-10-09T10:00:54
+unit42 = 2024-10-10T21:00:46
 google tag = 2024-09-12T23:30:00
-msrc security update = 2024-10-09T07:00:00
+msrc security update = 2024-10-10T07:00:50
 
 [Ransomware]
 suncrypt = 2022-06-18 02:21:01.442528
@@ -292,6 +292,6 @@ nitrogen = 2024-10-03 13:07:28.780200
 sarcoma = 2024-10-09 19:59:00.807036
 
 [Misc]
-redflagdomains = 2024-10-09
+redflagdomains = 2024-10-10
 reminder = 2024-10-07
 
