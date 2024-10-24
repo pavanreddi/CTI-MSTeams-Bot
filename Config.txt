@@ -42,7 +42,7 @@ databreaches = 2022-10-10T11:40:57
 unit42 = 2024-10-23T10:00:55
 google tag = 2024-09-12T23:30:00
 msrc security update = 2024-10-23T07:00:00
-fortigate psirt advisories = 2024-10-25T00:15:47
+fortigate psirt advisories = 2024-10-25T02:14:55
 zscaler-security-advisories = 2024-02-11T20:30:40
 	tenable product security advisories = 2024-02-06T16:07:31
 	tenable product security advisories = 2024-02-06T16:07:31
@@ -351,6 +351,6 @@ ransomed = 2023-09-09 15:07:24.335880
 cloak = 2023-08-24 07:42:45.735883
 
 [Misc]
-redflagdomains = 2024-10-23
+redflagdomains = 2024-10-24
 reminder = 2024-10-06
 
