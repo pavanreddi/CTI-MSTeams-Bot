@@ -13,7 +13,7 @@ bleeping computer = 2024-10-28T13:30:55
 proof point = 2024-10-22T09:23:34
 us-cert cisa = 2024-10-08T18:41:58
 fr-cert alertes = 2024-10-23T15:45:11
-fr-cert avis = 2024-10-25T12:05:32
+fr-cert avis = 2024-10-28T13:03:57
 hacker news = 2024-10-28T11:29:00
 schneier on security = 2024-10-25T21:01:14
 ncsc = 674-05-09T12:19:35
@@ -26,7 +26,7 @@ modexp = 2024-10-18T17:15:04
 james forshaw = 2024-06-04T04:20:00
 adam chester = 2024-03-18T23:01:46
 microsoft security = 2024-10-23T07:00:00
-recorded future = 2024-10-24T00:00:00
+recorded future = 2024-10-28T00:00:00
 sentinelone = 2024-10-25T14:00:21
 leak-lookup = 2024-10-22T22:00:03
 cyber-news = 2023-10-22T17:07:23
@@ -292,6 +292,7 @@ nitrogen = 2024-10-25 16:08:39.957879
 sarcoma = 2024-10-25 13:20:08.866530
 interlock = 2024-10-27 10:17:50.072467
 hellcat = 2024-10-25 08:53:04.137330
+playboy = 2024-10-28 14:49:53.227797
 
 [Misc]
 redflagdomains = 2024-10-27
