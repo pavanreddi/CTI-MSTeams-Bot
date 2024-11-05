@@ -1,12 +1,12 @@
 [Rss]
 graham cluley = 2024-11-05T16:30:27
 threatpost = 2022-08-31T12:57:48
-krebs on security = 2024-11-01T21:12:38
+krebs on security = 2024-11-05T17:10:04
 dark reading = 2027-03-26T22:00:00
 we live security = 2023-07-19T09:30:16
 davinci forensics = 2024-09-16T13:01:11
 cisco = 2024-11-04T13:00:24
-information security magazine = 2024-11-05T16:30:00
+information security magazine = 2024-11-05T17:15:00
 google = 2022-10-12T12:00:00
 trend micro = 2024-11-04T00:00:00
 bleeping computer = 2024-11-05T16:23:13
@@ -188,7 +188,7 @@ darkvault = 2024-08-28 14:45:41.669360
 gookie = 2024-04-19 08:15:03.442959
 disposseor = 2024-04-19 09:39:53.973182
 dispossessor = 2024-08-11 21:55:50.282146
-embargo = 2024-11-05 09:18:46.151958
+embargo = 2024-11-05 16:48:56.931581
 quilong = 2024-04-22 04:37:14.113846
 qiulong = 2024-06-24 22:23:31.002955
 hellogookie = 2024-04-19 08:15:03.442959
