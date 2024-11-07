@@ -6,7 +6,7 @@ dark reading = 2027-03-26T22:00:00
 we live security = 2023-07-19T09:30:16
 davinci forensics = 2024-09-16T13:01:11
 cisco = 2024-11-04T13:00:24
-information security magazine = 2024-11-07T10:30:00
+information security magazine = 2024-11-07T11:15:00
 google = 2022-10-12T12:00:00
 trend micro = 2024-11-04T00:00:00
 bleeping computer = 2024-11-06T21:25:23
@@ -39,7 +39,7 @@ version = 2023-05-15T09:31:25
 redcanary = 2024-10-30T18:34:43
 malpedia = 2022-09-20T15:01:28
 databreaches = 2022-10-10T11:40:57
-unit42 = 2024-11-04T23:00:48
+unit42 = 2024-11-07T11:00:13
 google tag = 2024-09-12T23:30:00
 msrc security update = 2024-10-31T16:46:51
 
@@ -290,7 +290,7 @@ valencialeaks = 2024-09-18 09:47:16.136675
 orca = 2024-10-04 10:42:22.251045
 nitrogen = 2024-10-25 16:08:39.957879
 sarcoma = 2024-10-31 09:29:30.021503
-interlock = 2024-10-27 10:17:50.072467
+interlock = 2024-11-07 11:14:06.006864
 hellcat = 2024-11-04 15:24:23.979333
 playboy = 2024-10-30 19:16:00.461633
 
