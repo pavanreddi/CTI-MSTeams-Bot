@@ -1,5 +1,5 @@
 [Rss]
-graham cluley = 2024-11-14T00:00:33
+graham cluley = 2024-11-14T12:09:21
 threatpost = 2022-08-31T12:57:48
 krebs on security = 2024-11-12T21:59:46
 dark reading = 2027-03-26T22:00:00
@@ -14,8 +14,8 @@ proof point = 2024-11-07T21:38:30
 us-cert cisa = 2024-11-08T21:04:23
 fr-cert alertes = 2024-10-23T15:45:11
 fr-cert avis = 2024-11-13T14:18:52
-hacker news = 2024-11-14T10:30:00
-schneier on security = 2024-11-13T12:06:21
+hacker news = 2024-11-14T12:10:00
+schneier on security = 2024-11-14T12:05:26
 ncsc = 674-05-09T12:19:35
 center of internet security = 2024-11-13T01:46:24
 binary defense = 2024-09-23T18:41:21
