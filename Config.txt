@@ -9,7 +9,7 @@ cisco = 2024-11-18T13:00:00
 information security magazine = 2024-11-18T16:30:00
 google = 2022-10-12T12:00:00
 trend micro = 2024-11-18T00:00:00
-bleeping computer = 2024-11-18T17:05:41
+bleeping computer = 2024-11-18T18:54:34
 proof point = 2024-11-14T18:57:42
 us-cert cisa = 2024-11-08T21:04:23
 fr-cert alertes = 2024-11-15T10:12:30
@@ -298,6 +298,6 @@ chort = 2024-11-17 10:30:28.383741
 termite = 2024-11-17 19:36:31.097234
 
 [Misc]
-redflagdomains = 2024-11-17
+redflagdomains = 2024-11-18
 reminder = 2024-11-08
 
