@@ -13,8 +13,8 @@ bleeping computer = 2024-12-02T21:11:31
 proof point = 2024-11-21T05:00:00
 us-cert cisa = 2024-11-08T21:04:23
 fr-cert alertes = 2024-11-15T10:12:30
-fr-cert avis = 2024-11-29T13:54:22
-hacker news = 2024-12-03T10:17:00
+fr-cert avis = 2024-12-03T12:36:34
+hacker news = 2024-12-03T12:51:00
 schneier on security = 2024-12-03T12:00:47
 ncsc = 674-05-09T12:19:35
 center of internet security = 2024-12-02T23:31:03
@@ -297,7 +297,7 @@ kairos = 2024-11-29 01:22:10.205926
 chort = 2024-11-22 14:36:23.984561
 termite = 2024-11-20 02:35:50.142955
 safepay = 2024-11-28 08:13:24.088553
-argonauts = 2024-11-27 16:51:59.400695
+argonauts = 2024-12-03 13:46:48.635720
 
 [Misc]
 redflagdomains = 2024-12-02
