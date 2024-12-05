@@ -1,5 +1,5 @@
 [Rss]
-graham cluley = 2024-12-05T11:16:40
+graham cluley = 2024-12-05T16:43:13
 threatpost = 2022-08-31T12:57:48
 krebs on security = 2024-12-04T14:08:45
 dark reading = 2027-03-26T22:00:00
@@ -9,7 +9,7 @@ cisco = 2024-12-04T13:00:33
 information security magazine = 2024-12-05T16:30:00
 google = 2022-10-12T12:00:00
 trend micro = 2024-12-05T00:00:00
-bleeping computer = 2024-12-05T15:02:12
+bleeping computer = 2024-12-05T17:17:25
 proof point = 2024-12-03T09:46:33
 us-cert cisa = 2024-11-08T21:04:23
 fr-cert alertes = 2024-11-15T10:12:30
@@ -288,7 +288,7 @@ astroteam = 2021-04-05 00:00:00.000000
 roadsweep 00 = 00:00.000000 = 2022-07-18
 valencialeaks = 2024-09-18 09:47:16.136675
 orca = 2024-10-04 10:42:22.251045
-nitrogen = 2024-10-25 16:08:39.957879
+nitrogen = 2024-12-05 16:48:13.335683
 sarcoma = 2024-12-05 15:16:24.892524
 interlock = 2024-11-19 21:43:03.524744
 hellcat = 2024-11-04 15:24:23.979333
