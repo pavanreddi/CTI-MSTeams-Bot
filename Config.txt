@@ -15,7 +15,7 @@ us-cert cisa = 2024-11-08T21:04:23
 fr-cert alertes = 2024-11-15T10:12:30
 fr-cert avis = 2024-12-06T12:41:23
 hacker news = 2024-12-06T16:15:00
-schneier on security = 2024-12-06T12:09:12
+schneier on security = 2024-12-06T22:05:23
 ncsc = 674-05-09T12:19:35
 center of internet security = 2024-12-02T23:31:03
 binary defense = 2024-12-02T15:00:17
@@ -301,6 +301,6 @@ argonauts = 2024-12-03 13:46:48.635720
 funksec = 2024-12-06 13:55:14.169581
 
 [Misc]
-redflagdomains = 2024-12-05
+redflagdomains = 2024-12-06
 reminder = 2024-11-08
 
