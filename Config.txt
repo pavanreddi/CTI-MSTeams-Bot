@@ -18,7 +18,7 @@ hacker news = 2024-12-10T15:57:00
 schneier on security = 2024-12-10T12:06:20
 ncsc = 674-05-09T12:19:35
 center of internet security = 2024-12-02T23:31:03
-binary defense = 2024-12-09T15:05:51
+binary defense = 2024-12-10T22:20:10
 securelist = 2024-12-09T10:00:52
 checkpoint research = 2024-12-09T13:53:55
 virusbulletin = 2024-06-24T08:57:00
@@ -298,7 +298,7 @@ chort = 2024-11-22 14:36:23.984561
 termite = 2024-12-06 11:59:49.924490
 safepay = 2024-12-06 03:29:41.377530
 argonauts = 2024-12-03 13:46:48.635720
-funksec = 2024-12-10 16:20:55.028556
+funksec = 2024-12-10 21:52:25.590288
 
 [Misc]
 redflagdomains = 2024-12-10
