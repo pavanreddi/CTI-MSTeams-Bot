@@ -14,7 +14,7 @@ proof point = 2024-12-03T09:46:33
 us-cert cisa = 2024-11-08T21:04:23
 fr-cert alertes = 2024-11-15T10:12:30
 fr-cert avis = 2024-12-12T07:03:18
-hacker news = 2024-12-13T06:06:00
+hacker news = 2024-12-13T09:11:00
 schneier on security = 2024-12-11T12:02:50
 ncsc = 674-05-09T12:19:35
 center of internet security = 2024-12-12T21:44:37
@@ -298,7 +298,7 @@ chort = 2024-11-22 14:36:23.984561
 termite = 2024-12-11 21:07:57.060040
 safepay = 2024-12-11 23:13:54.811086
 argonauts = 2024-12-03 13:46:48.635720
-funksec = 2024-12-11 16:47:30.235225
+funksec = 2024-12-13 09:42:38.911366
 bluebox = 2024-12-11 12:46:01.557279
 
 [Misc]
