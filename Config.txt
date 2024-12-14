@@ -10,7 +10,7 @@ information security magazine = 2024-12-13T14:30:00
 google = 2022-10-12T12:00:00
 trend micro = 2024-12-13T00:00:00
 bleeping computer = 2024-12-13T23:31:24
-proof point = 2024-12-10T15:59:31
+proof point = 2024-12-13T15:39:28
 us-cert cisa = 2024-11-08T21:04:23
 fr-cert alertes = 2024-11-15T10:12:30
 fr-cert avis = 2024-12-13T12:38:55
@@ -298,7 +298,7 @@ chort = 2024-11-22 14:36:23.984561
 termite = 2024-12-11 21:07:57.060040
 safepay = 2024-12-14 02:27:34.949746
 argonauts = 2024-12-03 13:46:48.635720
-funksec = 2024-12-13 17:42:07.695523
+funksec = 2024-12-14 11:40:45.784832
 bluebox = 2024-12-11 12:46:01.557279
 
 [Misc]
