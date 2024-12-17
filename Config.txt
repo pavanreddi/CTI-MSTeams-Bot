@@ -8,7 +8,7 @@ davinci forensics = 2024-12-14T16:26:42
 cisco = 2024-12-16T13:00:00
 information security magazine = 2024-12-16T16:30:00
 google = 2022-10-12T12:00:00
-trend micro = 2024-12-13T00:00:00
+trend micro = 2024-12-17T00:00:00
 bleeping computer = 2024-12-16T22:22:35
 proof point = 2024-12-13T15:39:28
 us-cert cisa = 2024-11-08T21:04:23
@@ -300,7 +300,7 @@ safepay = 2024-12-14 02:27:34.949746
 argonauts = 2024-12-16 15:42:13.682570
 funksec = 2024-12-15 17:13:18.775099
 bluebox = 2024-12-11 12:46:01.557279
-dragonransomware = 2024-12-16 18:54:28.101185
+dragonransomware = 2024-12-17 00:50:44.248624
 
 [Misc]
 redflagdomains = 2024-12-16
