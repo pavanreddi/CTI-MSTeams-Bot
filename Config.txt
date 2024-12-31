@@ -39,7 +39,7 @@ version = 2023-05-15T09:31:25
 redcanary = 2024-12-20T14:16:40
 malpedia = 2022-09-20T15:01:28
 databreaches = 2022-10-10T11:40:57
-unit42 = 2024-12-20T11:00:39
+unit42 = 2024-12-31T23:00:16
 google tag = 2024-12-17T22:00:00
 msrc security update = 2024-12-31T08:00:00
 
@@ -303,6 +303,6 @@ bluebox = 2024-12-17 23:44:58.505679
 dragonransomware = 2024-12-17 00:50:44.248624
 
 [Misc]
-redflagdomains = 2024-12-30
+redflagdomains = 2024-12-31
 reminder = 2024-12-10
 
