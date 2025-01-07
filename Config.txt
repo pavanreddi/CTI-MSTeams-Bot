@@ -9,7 +9,7 @@ cisco = 2024-12-20T13:00:00
 information security magazine = 2025-01-07T17:15:00
 google = 2022-10-12T12:00:00
 trend micro = 2025-01-07T00:00:00
-bleeping computer = 2025-01-07T15:59:23
+bleeping computer = 2025-01-07T18:08:24
 proof point = 2024-12-27T16:29:29
 us-cert cisa = 2024-11-08T21:04:23
 fr-cert alertes = 2024-11-15T10:12:30
@@ -301,6 +301,7 @@ argonauts = 2024-12-16 15:42:13.682570
 funksec = 2025-01-07 09:40:05.500788
 bluebox = 2024-12-17 23:44:58.505679
 dragonransomware = 2024-12-17 00:50:44.248624
+morpheus = 2025-01-07 18:29:38.159516
 
 [Misc]
 redflagdomains = 2025-01-06
