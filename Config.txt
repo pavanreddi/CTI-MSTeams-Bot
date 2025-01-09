@@ -9,7 +9,7 @@ cisco = 2024-12-20T13:00:00
 information security magazine = 2025-01-09T17:15:00
 google = 2022-10-12T12:00:00
 trend micro = 2025-01-09T00:00:00
-bleeping computer = 2025-01-09T18:29:51
+bleeping computer = 2025-01-09T18:59:19
 proof point = 2024-12-27T16:29:29
 us-cert cisa = 2024-11-08T21:04:23
 fr-cert alertes = 2025-01-09T08:36:57
@@ -175,7 +175,7 @@ noname = 2024-01-16 20:58:52.036534
 insane = 2024-01-17 05:45:04.181045
 slug = 2024-01-18 11:01:53.512839
 mydata = 2024-02-14 14:53:11.629905
-ransomhub = 2025-01-08 09:49:11.756168
+ransomhub = 2025-01-09 19:06:27.808625
 trisec = 2024-03-12 18:12:46.345750
 mogilevich = 2024-03-02 16:26:21.304079
 alphalocker = 2024-08-09 21:58:22.255018
@@ -304,6 +304,6 @@ dragonransomware = 2024-12-17 00:50:44.248624
 morpheus = 2025-01-07 18:29:38.159516
 
 [Misc]
-redflagdomains = 2025-01-08
+redflagdomains = 2025-01-09
 reminder = 2024-12-10
 
