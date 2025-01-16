@@ -1,7 +1,7 @@
 [Rss]
 graham cluley = 2025-01-16T00:19:46
 threatpost = 2022-08-31T12:57:48
-krebs on security = 2025-01-14T22:50:00
+krebs on security = 2025-01-16T21:18:48
 dark reading = 2027-03-26T22:00:00
 we live security = 2023-07-19T09:30:16
 davinci forensics = 2024-12-28T16:26:48
@@ -304,6 +304,6 @@ dragonransomware = 2024-12-17 00:50:44.248624
 morpheus = 2025-01-07 18:29:38.159516
 
 [Misc]
-redflagdomains = 2025-01-15
+redflagdomains = 2025-01-16
 reminder = 2025-01-11
 
