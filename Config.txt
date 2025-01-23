@@ -1,5 +1,5 @@
 [Rss]
-graham cluley = 2025-01-22T10:06:03
+graham cluley = 2025-01-23T00:00:09
 threatpost = 2022-08-31T12:57:48
 krebs on security = 2025-01-22T15:24:41
 dark reading = 2027-03-26T22:00:00
@@ -34,7 +34,7 @@ eu-enisa publications = 2024-11-19T16:08:16
 att = 2025-01-17T18:21:00
 microsoft sentinel = 2024-10-24T10:47:01
 ncc = 2024-02-22T16:35:43
-sans = 2025-01-22T18:14:30
+sans = 2025-01-22T23:45:03
 version = 2023-05-15T09:31:25
 redcanary = 2025-01-21T14:40:10
 malpedia = 2022-09-20T15:01:28
