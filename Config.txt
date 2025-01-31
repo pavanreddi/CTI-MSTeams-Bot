@@ -1,11 +1,11 @@
 [Rss]
 graham cluley = 2025-01-30T00:00:46
 threatpost = 2022-08-31T12:57:48
-krebs on security = 2025-01-30T17:10:08
+krebs on security = 2025-01-31T18:35:32
 dark reading = 2027-03-26T22:00:00
 we live security = 2023-07-19T09:30:16
 davinci forensics = 2025-01-30T17:09:45
-cisco = 2025-01-31T13:00:00
+cisco = 2025-01-31T18:30:00
 information security magazine = 2025-01-31T14:30:00
 google = 2022-10-12T12:00:00
 trend micro = 2025-01-30T00:00:00
