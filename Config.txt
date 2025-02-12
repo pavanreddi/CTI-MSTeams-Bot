@@ -17,7 +17,7 @@ fr-cert avis = 2025-02-11T13:29:12
 hacker news = 2025-02-11T15:13:00
 schneier on security = 2025-02-11T12:08:36
 ncsc = 743-08-29T10:51:07
-center of internet security = 2025-02-06T21:05:40
+center of internet security = 2025-02-12T00:20:39
 binary defense = 2024-12-16T14:00:00
 securelist = 2025-02-05T12:00:05
 checkpoint research = 2025-02-10T13:53:25
@@ -211,7 +211,7 @@ vanirgroup = 2024-07-10 13:54:52.476485
 ransomcortex = 2024-07-12 17:37:07.641220
 fog = 2025-02-11 17:35:20.572483
 madliberator = 2024-10-01 16:12:05.863123
-lynx = 2025-02-10 15:52:50.408647
+lynx = 2025-02-12 00:20:26.797398
 helldown = 2024-11-06 23:40:11.858876
 cryptolocker = 2019-04-28 00:00:00.000000
 cryptowall = 2016-06-05 00:00:00.000000
@@ -308,5 +308,5 @@ kraken = 2025-02-09 19:07:49.285098
 
 [Misc]
 redflagdomains = 2025-02-11
-reminder = 2025-01-11
+reminder = 2025-02-12
 
