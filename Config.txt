@@ -14,7 +14,7 @@ proof point = 2025-02-05T16:06:30
 us-cert cisa = 2025-01-15T17:26:11
 fr-cert alertes = 2025-01-14T15:39:48
 fr-cert avis = 2025-02-14T13:45:19
-hacker news = 2025-02-14T11:00:00
+hacker news = 2025-02-14T18:28:00
 schneier on security = 2025-02-14T17:05:38
 ncsc = 743-08-29T10:51:07
 center of internet security = 2025-02-12T23:17:48
@@ -307,6 +307,6 @@ babuk2 = 2025-02-10 22:51:52.737223
 kraken = 2025-02-09 19:07:49.285098
 
 [Misc]
-redflagdomains = 2025-02-13
+redflagdomains = 2025-02-14
 reminder = 2025-02-12
 
