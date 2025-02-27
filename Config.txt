@@ -9,7 +9,7 @@ cisco = 2025-02-27T13:00:00
 information security magazine = 2025-02-27T16:45:00
 google = 2022-10-12T12:00:00
 trend micro = 2025-02-20T00:00:00
-bleeping computer = 2025-02-27T18:15:46
+bleeping computer = 2025-02-27T20:54:16
 proof point = 2025-02-19T02:03:27
 us-cert cisa = 2025-02-19T16:38:21
 fr-cert alertes = 2025-01-14T15:39:48
@@ -310,6 +310,6 @@ anubis = 2025-02-25 07:49:06.511060
 runsomewares = 2025-02-27 14:37:04.752890
 
 [Misc]
-redflagdomains = 2025-02-26
+redflagdomains = 2025-02-27
 reminder = 2025-02-12
 
