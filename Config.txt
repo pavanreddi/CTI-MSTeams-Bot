@@ -1,7 +1,7 @@
 [Rss]
 graham cluley = 2025-02-27T18:02:54
 threatpost = 2022-08-31T12:57:48
-krebs on security = 2025-02-27T03:39:25
+krebs on security = 2025-02-28T20:14:58
 dark reading = 2027-03-26T22:00:00
 we live security = 2023-07-19T09:30:16
 davinci forensics = 2025-02-28T16:57:35
@@ -298,7 +298,7 @@ chort = 2024-11-22 14:36:23.984561
 termite = 2025-02-25 22:54:45.595475
 safepay = 2025-02-28 18:03:07.012908
 argonauts = 2024-12-16 15:42:13.682570
-funksec = 2025-02-28 17:27:28.847266
+funksec = 2025-02-28 19:54:24.346745
 bluebox = 2024-12-17 23:44:58.505679
 dragonransomware = 2024-12-17 00:50:44.248624
 morpheus = 2025-02-25 14:34:14.792320
