@@ -1,5 +1,5 @@
 [Rss]
-graham cluley = 2025-03-04T15:55:47
+graham cluley = 2025-03-05T12:39:38
 threatpost = 2022-08-31T12:57:48
 krebs on security = 2025-02-28T20:14:58
 dark reading = 2027-03-26T22:00:00
@@ -14,8 +14,8 @@ proof point = 2025-02-19T02:03:27
 us-cert cisa = 2025-02-19T16:38:21
 fr-cert alertes = 2025-01-14T15:39:48
 fr-cert avis = 2025-03-04T06:41:59
-hacker news = 2025-03-05T07:07:00
-schneier on security = 2025-03-04T12:08:31
+hacker news = 2025-03-05T11:03:00
+schneier on security = 2025-03-05T12:00:31
 ncsc = 743-08-29T10:51:07
 center of internet security = 2025-03-05T03:03:26
 binary defense = 2025-03-04T15:22:39
@@ -136,7 +136,7 @@ dunghill_leak = 2023-09-26 23:36:18.432786
 crosslock = 2023-04-17 17:00:38.913300
 trigona = 2024-03-30 17:55:35.466923
 cryptnet = 2023-04-19 20:00:01.214643
-akira = 2025-03-04 16:18:38.358498
+akira = 2025-03-05 12:15:54.217599
 rancoz = 2023-09-03 19:11:12.464264
 ragroup = 2023-12-20 16:20:10.147940
 malas = 2023-05-18 11:29:55.649054
