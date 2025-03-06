@@ -9,7 +9,7 @@ cisco = 2025-03-03T13:00:00
 information security magazine = 2025-03-06T17:15:00
 google = 2022-10-12T12:00:00
 trend micro = 2025-03-05T00:00:00
-bleeping computer = 2025-03-06T20:31:35
+bleeping computer = 2025-03-06T20:53:36
 proof point = 2025-02-19T02:03:27
 us-cert cisa = 2025-02-19T16:38:21
 fr-cert alertes = 2025-01-14T15:39:48
@@ -36,7 +36,7 @@ microsoft sentinel = 2024-10-24T10:47:01
 ncc = 2024-02-22T16:35:43
 sans = 2025-03-06T02:45:34
 version = 2023-05-15T09:31:25
-redcanary = 2025-03-03T19:57:29
+redcanary = 2025-03-06T20:49:45
 malpedia = 2022-09-20T15:01:28
 databreaches = 2022-10-10T11:40:57
 unit42 = 2025-03-06T11:00:25
@@ -136,7 +136,7 @@ dunghill_leak = 2023-09-26 23:36:18.432786
 crosslock = 2023-04-17 17:00:38.913300
 trigona = 2024-03-30 17:55:35.466923
 cryptnet = 2023-04-19 20:00:01.214643
-akira = 2025-03-06 02:47:08.170995
+akira = 2025-03-06 21:17:35.203886
 rancoz = 2023-09-03 19:11:12.464264
 ragroup = 2023-12-20 16:20:10.147940
 malas = 2023-05-18 11:29:55.649054
@@ -311,6 +311,6 @@ runsomewares = 2025-02-27 14:37:04.752890
 skira = 2025-03-06 01:24:29.215457
 
 [Misc]
-redflagdomains = 2025-03-05
+redflagdomains = 2025-03-06
 reminder = 2025-02-12
 
