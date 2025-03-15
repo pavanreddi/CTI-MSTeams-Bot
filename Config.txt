@@ -4,7 +4,7 @@ threatpost = 2022-08-31T12:57:48
 krebs on security = 2025-03-14T22:15:27
 dark reading = 2027-03-26T22:00:00
 we live security = 2023-07-19T09:30:16
-davinci forensics = 2025-03-06T17:02:14
+davinci forensics = 2025-03-15T19:03:14
 cisco = 2025-03-12T12:00:00
 information security magazine = 2025-03-14T14:30:00
 google = 2022-10-12T12:00:00
@@ -315,6 +315,6 @@ nightspire = 2025-03-12 23:50:48.802120
 secp0 = 2025-03-14 07:35:02.420437
 
 [Misc]
-redflagdomains = 2025-03-14
+redflagdomains = 2025-03-15
 reminder = 2025-02-12
 
