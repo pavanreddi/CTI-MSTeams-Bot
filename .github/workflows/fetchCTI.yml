@@ -23,7 +23,6 @@ jobs:
       - name: run scraper
         env:
           MSTEAMS_WEBHOOK_FEED: ${{ secrets.MSTEAMS_WEBHOOK_FEED }} 
-          MSTEAMS_WEBHOOK_RANSOMWARE: ${{ secrets.MSTEAMS_WEBHOOK_RANSOMWARE }} 
           MSTEAMS_WEBHOOK_IOC: ${{ secrets.MSTEAMS_WEBHOOK_IOC }} 
         run: |
           python3 TeamsIntelBot.py -d -r 
