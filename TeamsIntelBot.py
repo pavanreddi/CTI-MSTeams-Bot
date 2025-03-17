@@ -7,25 +7,22 @@
 # Version     : 3.0.0 (2023-05-15)
 # ---------------------------------------------------------------------------
 
-# ---------------------------------------------------------------------------
-# Imports 
-# ---------------------------------------------------------------------------
 import feedparser
 import time, requests
-import csv  # Feed.csv
-import sys  # Python version 
-import json, hashlib  # Ransomware feed via ransomware.live 
+import csv
+import sys
+import json, hashlib
 from configparser import ConfigParser
-import os  # Webhook OS Variable and Github action 
+import os
 from os.path import exists
 from optparse import OptionParser
 import urllib.request
-from bs4 import BeautifulSoup  # parse redflag 
+from bs4 import BeautifulSoup
 from datetime import datetime, timedelta
 import re
 
 # ---------------------------------------------------------------------------
-# Function to send MS-Teams card 
+# Send MS Teams Notification
 # ---------------------------------------------------------------------------
 def Send_Teams(webhook_url: str, content: str, title: str, color: str = "000000") -> int:
     response = requests.post(
@@ -34,51 +31,47 @@ def Send_Teams(webhook_url: str, content: str, title: str, color: str = "000000"
         json={
             "themeColor": color,
             "summary": title,
-            "sections": [{
-                "activityTitle": title,
-                "activitySubtitle": content
-            }],
-        },
+            "sections": [{"activityTitle": title, "activitySubtitle": content}]
+        }
     )
-    return response.status_code  # Should be 200
+    return response.status_code
 
 # ---------------------------------------------------------------------------
-# Function to add Emoji 
+# Emoji function for titles
 # ---------------------------------------------------------------------------
 def Emoji(feed):
     match feed:
-        case "Leak-Lookup": Title = '💧 '
-        case "VERSION": Title = '🔥 '
-        case "DataBreaches": Title = '🕳 '
-        case "FR-CERT Alertes" | "FR-CERT Avis": Title = '🇫🇷 '
-        case "EU-ENISA Publications": Title = '🇪🇺 '
-        case "Cyber-News": Title = '🕵🏻‍♂️ '
-        case "Bleeping Computer": Title = '💻 '
-        case "Microsoft Sentinel": Title = '🔭 '
-        case "Hacker News": Title = '📰 '
-        case "Cisco": Title = '📡 '
-        case "Securelist": Title = '📜 '
-        case "ATT": Title = '📞 '
-        case "Google TAG": Title = '🔬 '
-        case "DaVinci Forensics": Title = '📐 '
-        case "VirusBulletin": Title = '🦠 '
-        case "Information Security Magazine": Title = '🗞 '
-        case "US-CERT CISA": Title = '🇺🇸 '
-        case "NCSC": Title = '🇬🇧 '
-        case "SANS": Title = '🌍 '
-        case "malpedia": Title = '📖 '
-        case "Unit42": Title = '🚓 '
-        case "Microsoft Security": Title = 'Ⓜ️ '
-        case "Checkpoint Research": Title = '🏁 '
-        case "Proof Point": Title = '🧾 '
-        case "RedCanary": Title = '🦆 '
-        case "MSRC Security Update": Title = '🚨 '
-        case "CIRCL Luxembourg": Title = '🇱🇺 '
-        case _: Title = '📢 '
-    return Title
+        case "Leak-Lookup": return '💧 '
+        case "VERSION": return '🔥 '
+        case "DataBreaches": return '🕳 '
+        case "FR-CERT Alertes" | "FR-CERT Avis": return '🇫🇷 '
+        case "EU-ENISA Publications": return '🇪🇺 '
+        case "Cyber-News": return '🕵🏻‍♂️ '
+        case "Bleeping Computer": return '💻 '
+        case "Microsoft Sentinel": return '🔭 '
+        case "Hacker News": return '📰 '
+        case "Cisco": return '📡 '
+        case "Securelist": return '📜 '
+        case "ATT": return '📞 '
+        case "Google TAG": return '🔬 '
+        case "DaVinci Forensics": return '📐 '
+        case "VirusBulletin": return '🦠 '
+        case "Information Security Magazine": return '🗞 '
+        case "US-CERT CISA": return '🇺🇸 '
+        case "NCSC": return '🇬🇧 '
+        case "SANS": return '🌍 '
+        case "malpedia": return '📖 '
+        case "Unit42": return '🚓 '
+        case "Microsoft Security": return 'Ⓜ️ '
+        case "Checkpoint Research": return '🏁 '
+        case "Proof Point": return '🧾 '
+        case "RedCanary": return '🦆 '
+        case "MSRC Security Update": return '🚨 '
+        case "CIRCL Luxembourg": return '🇱🇺 '
+        case _: return '📢 '
 
 # ---------------------------------------------------------------------------
-# Fetch RSS feeds
+# Fetch and process RSS feed
 # ---------------------------------------------------------------------------
 def GetRssFromUrl(RssItem):
     NewsFeed = feedparser.parse(RssItem[0])
@@ -89,105 +82,112 @@ def GetRssFromUrl(RssItem):
             DateActivity = time.strftime('%Y-%m-%dT%H:%M:%S', RssObject.published_parsed)
         except:
             DateActivity = time.strftime('%Y-%m-%dT%H:%M:%S', RssObject.updated_parsed)
+
+        tmpObject = FileConfig.get('Rss', RssItem[1], fallback="?")
         
-        try:
-            TmpObject = FileConfig.get('Rss', RssItem[1])
-        except:
-            FileConfig.set('Rss', RssItem[1], " = ?")
-            TmpObject = FileConfig.get('Rss', RssItem[1])
-
-        if TmpObject.endswith("?"):
+        if tmpObject.endswith("?"):
             FileConfig.set('Rss', RssItem[1], DateActivity)
-        else:
-            if TmpObject >= DateActivity:
-                continue
+        elif tmpObject >= DateActivity:
+            continue
 
-        OutputMessage = f"Date: {DateActivity}<br>Source:<b> {RssItem[1]}</b><br>Read more: {RssObject.link}<br>"
-        Title = Emoji(RssItem[1]) + " " + RssObject.title
-
-        if RssItem[1] == "VERSION":
-            Title = f'🔥 A NEW VERSION IS AVAILABLE: {RssObject.title}'
+        output = f"Date: {DateActivity}<br>Source: <b>{RssItem[1]}</b><br>Read more: {RssObject.link}<br>"
+        title = f"{Emoji(RssItem[1])} {RssObject.title}"
         
         if options.Debug:
-            print(Title + " : " + DateActivity)
+            print(f"{title} - {output}")
         else:
-            Send_Teams(webhook_feed, OutputMessage, Title)
+            Send_Teams(webhook_feed, output, title)
             time.sleep(3)
-        
+
         FileConfig.set('Rss', RssItem[1], DateActivity)
 
-    with open(ConfigurationFilePath, 'w') as FileHandle:
-        FileConfig.write(FileHandle)
+    with open(ConfigurationFilePath, 'w') as configfile:
+        FileConfig.write(configfile)
 
 # ---------------------------------------------------------------------------
-# Fetch Red Flag Domains 
+# Fetch Red Flag domains
 # ---------------------------------------------------------------------------
 def GetRedFlagDomains():
-    now = datetime.now()
-    today = now.strftime("%Y-%m-%d")
-    yesterday = (now - timedelta(days=1)).strftime("%Y-%m-%d")
+    today = datetime.now().date()
+    last_checked = FileConfig.get('Misc', 'redflagdomains', fallback=str(today - timedelta(days=1)))
+    last_checked_date = datetime.strptime(last_checked, '%Y-%m-%d').date()
 
-    try:
-        TmpObject = FileConfig.get('Misc', "redflagdomains")
-    except:
-        FileConfig.set('Misc', "redflagdomains", yesterday)
-        TmpObject = yesterday
-
-    TmpObject = datetime.strptime(TmpObject, '%Y-%m-%d').date()
-    today_date = datetime.strptime(today, '%Y-%m-%d').date()
-
-    if TmpObject < today_date:
+    if last_checked_date < today:
         url = f"https://red.flag.domains/posts/{today}/"
         try:
             response = urllib.request.urlopen(url)
             soup = BeautifulSoup(response, 'html.parser')
-            div = soup.find("div", {"class": "content", "itemprop": "articleBody"})
-            OutputMessage = ''.join(re.sub(r"[\[\]]", "", p.get_text()) for p in div.find_all("p"))
-            Title = f"🚩 Red Flag Domains for {today}"
-            
-            FileConfig.set('Misc', "redflagdomains", today)
-            if options.Debug:
-                print(Title)
-                print(OutputMessage)
-            else:
-                Send_Teams(webhook_feed, OutputMessage.replace('\n', '<br>'), Title)
-                time.sleep(3)
-        except Exception as e:
-            print(f"Error fetching Red Flag Domains: {e}")
+            content = soup.find("div", class_="content", itemprop="articleBody")
+            text_output = re.sub(r"[\[\]]", "", content.get_text())
 
-    with open(ConfigurationFilePath, 'w') as FileHandle:
-        FileConfig.write(FileHandle)
+            title = f"🚩 Red Flag Domains for {today}"
+            if options.Debug:
+                print(title, text_output)
+            else:
+                Send_Teams(webhook_feed, text_output.replace('\n', '<br>'), title)
+            
+            FileConfig.set('Misc', 'redflagdomains', str(today))
+        except Exception as e:
+            print(f"Error fetching Red Flag domains: {e}")
+
+        with open(ConfigurationFilePath, 'w') as configfile:
+            FileConfig.write(configfile)
 
 # ---------------------------------------------------------------------------
-# Main Execution
+# Send monthly reminder
+# ---------------------------------------------------------------------------
+def SendReminder():
+    last_reminder = FileConfig.get('Misc', 'reminder', fallback=str(datetime.now() - timedelta(days=31)))
+    last_reminder_date = datetime.strptime(last_reminder, '%Y-%m-%d').date()
+    one_month_ago = datetime.now().date() - timedelta(days=31)
+
+    if last_reminder_date < one_month_ago:
+        output = "Monthly Feeds Reminder:<br>"
+        with open('Feed.csv') as f:
+            feeds = csv.reader(f)
+            for rss in feeds:
+                feed_title = rss[1]
+                feed_data = feedparser.parse(rss[0])
+                feed_date = feed_data.entries[0].published if feed_data.entries else "Unknown"
+                output += f"{Emoji(feed_title)} {feed_title} ({feed_date})<br>"
+
+        FileConfig.set('Misc', 'reminder', str(datetime.now().date()))
+
+        if options.Debug:
+            print(output)
+        else:
+            Send_Teams(webhook_ioc, output, "Monthly Feeds Reminder")
+
+        with open(ConfigurationFilePath, 'w') as configfile:
+            FileConfig.write(configfile)
+
+# ---------------------------------------------------------------------------
+# Main execution block
 # ---------------------------------------------------------------------------
 if __name__ == '__main__':
     parser = OptionParser()
     parser.add_option("-q", "--quiet", action="store_true", dest="Quiet", default=False)
     parser.add_option("-D", "--debug", action="store_true", dest="Debug", default=False)
-    parser.add_option("-d", "--domain", action="store_true", dest="Domains", default=False)
-    parser.add_option("-r", "--reminder", action="store_true", dest="Reminder", default=False)
+    parser.add_option("-d", "--domain", action="store_true", dest="Domains")
+    parser.add_option("-r", "--reminder", action="store_true", dest="Reminder")
     (options, args) = parser.parse_args()
 
     webhook_feed = os.getenv('MSTEAMS_WEBHOOK_FEED')
     webhook_ioc = os.getenv('MSTEAMS_WEBHOOK_IOC')
-    ConfigurationFilePath = os.path.join(os.path.abspath(os.path.dirname(__file__)), 'Config.txt')
-
-    if sys.version_info < (3, 10):
-        sys.exit("Please use Python 3.10+")
-    if webhook_feed is None and not options.Debug:
-        sys.exit("Please use a MSTEAMS_WEBHOOK_FEED variable")
-    if webhook_ioc is None and not options.Debug:
-        sys.exit("Please use a MSTEAMS_WEBHOOK_IOC variable")
-    
-    if not exists(ConfigurationFilePath):
-        sys.exit("Please add Config.txt")
-    if not exists("Feed.csv"):
-        sys.exit("Please add Feed.csv")
+    ConfigurationFilePath = os.path.join(os.path.dirname(__file__), 'Config.txt')
     
     FileConfig = ConfigParser()
     FileConfig.read(ConfigurationFilePath)
-    
-    GetRssFromUrl(RssFeedList)
+
+    with open('Feed.csv') as f:
+        feeds = csv.reader(f)
+        RssFeedList = list(feeds)
+
+    for feed in RssFeedList:
+        if feed[0].startswith('#'): continue
+        GetRssFromUrl(feed)
+
     if options.Domains:
         GetRedFlagDomains()
+    if options.Reminder:
+        SendReminder()
