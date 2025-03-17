@@ -2,7 +2,7 @@ name: Fetch-CTI
 
 on:
   schedule:
-    - cron: '*/60 * * * *'  # Runs every hour
+    - cron: '*/30 * * * *'
   workflow_dispatch:
 
 jobs:
@@ -11,38 +11,26 @@ jobs:
     timeout-minutes: 30
     environment: CI
     steps:
-      - name: Checkout the repo
+      - name: checkout the repo
         uses: actions/checkout@v3
-
-      - name: Use Python 3.10
+      - name: Use Python 3.10 
         uses: actions/setup-python@v4
         with:
-          python-version: '3.10'
-
-      - name: Install dependencies
+          python-version: '3.10' 
+      - name: install dependencies
         run: |
           pip3 install -r requirements.txt
-
-      - name: Run scraper
+      - name: run scraper
         env:
-          MSTEAMS_WEBHOOK_FEED: ${{ secrets.MSTEAMS_WEBHOOK_FEED }}
-          MSTEAMS_WEBHOOK_IOC: ${{ secrets.MSTEAMS_WEBHOOK_IOC }}
+          MSTEAMS_WEBHOOK_FEED: ${{ secrets.MSTEAMS_WEBHOOK_FEED }} 
+          MSTEAMS_WEBHOOK_RANSOMWARE: ${{ secrets.MSTEAMS_WEBHOOK_RANSOMWARE }} 
+          MSTEAMS_WEBHOOK_IOC: ${{ secrets.MSTEAMS_WEBHOOK_IOC }} 
         run: |
-          python3 TeamsIntelBot.py -d -r
-
-      - name: Save changes
+          python3 TeamsIntelBot.py -d -r 
+      - name: save changes
         run: |
           git config --global user.email "bot-parser@users.noreply.github.com"
           git config --global user.name "Bot-Parser"
-          
-          # Fetch and rebase to ensure local branch is up to date
-          git fetch origin
-          git rebase origin/main
-
           DATE=$(date -Iseconds)
-          
-          # Commit any changes if they exist
-          git commit --all --message "Updated by Bot-Parser on $DATE" || echo "No changes to commit"
-          
-          # Push changes after ensuring we're up to date
-          git push origin main
+          git commit --all --message "Updated by Bot-Parser on $DATE" || echo "no changes to commit"
+          git push
