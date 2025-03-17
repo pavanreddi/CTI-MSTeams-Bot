@@ -323,7 +323,6 @@ if __name__ == '__main__':
 
     # Get Microsoft Teams Webhook from Github Action CI:Env.  
     webhook_feed=os.getenv('MSTEAMS_WEBHOOK_FEED')
-    webhook_ransomware=os.getenv('MSTEAMS_WEBHOOK_RANSOMWARE')
     webhook_ioc=os.getenv('MSTEAMS_WEBHOOK_IOC')
 
     # expects the configuration file in the same directory as this script by default, replace if desired otherwise
