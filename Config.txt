@@ -39,7 +39,7 @@ version = 2023-05-15T09:31:25
 redcanary = 2025-03-18T14:59:14
 malpedia = 2022-09-20T15:01:28
 databreaches = 2022-10-10T11:40:57
-unit42 = 2025-03-14T10:00:04
+unit42 = 2025-03-18T20:45:11
 google tag = 2024-12-17T22:00:00
 msrc security update = 2025-03-13T07:00:00
 
@@ -316,6 +316,6 @@ secp0 = 2025-03-14 07:35:02.420437
 vanhelsing = 2025-03-17 12:55:44.274069
 
 [Misc]
-redflagdomains = 2025-03-17
+redflagdomains = 2025-03-18
 reminder = 2025-03-16
 
