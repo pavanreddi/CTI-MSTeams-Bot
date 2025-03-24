@@ -14,7 +14,7 @@ proof point = 2025-03-21T17:19:40
 us-cert cisa = 2025-03-11T14:52:42
 fr-cert alertes = 2025-01-14T15:39:48
 fr-cert avis = 2025-03-24T08:38:13
-hacker news = 2025-03-24T16:19:00
+hacker news = 2025-03-24T18:55:00
 schneier on security = 2025-03-24T10:38:58
 ncsc = 743-08-29T10:51:07
 center of internet security = 2025-03-21T19:24:45
@@ -314,8 +314,9 @@ crazyhunter = 2025-03-24 13:55:03.166834
 nightspire = 2025-03-18 03:10:08.352385
 secp0 = 2025-03-14 07:35:02.420437
 vanhelsing = 2025-03-19 16:45:53.578753
+frag = 2025-03-24 19:24:57.875061
 
 [Misc]
-redflagdomains = 2025-03-23
+redflagdomains = 2025-03-24
 reminder = 2025-03-16
 
