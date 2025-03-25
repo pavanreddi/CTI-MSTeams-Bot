@@ -13,8 +13,8 @@ bleeping computer = 2025-03-24T20:21:22
 proof point = 2025-03-21T17:19:40
 us-cert cisa = 2025-03-11T14:52:42
 fr-cert alertes = 2025-01-14T15:39:48
-fr-cert avis = 2025-03-24T08:38:13
-hacker news = 2025-03-25T11:00:00
+fr-cert avis = 2025-03-25T08:49:23
+hacker news = 2025-03-25T11:54:00
 schneier on security = 2025-03-25T11:05:01
 ncsc = 743-08-29T10:51:07
 center of internet security = 2025-03-21T19:24:45
@@ -315,6 +315,7 @@ nightspire = 2025-03-25 06:35:18.448790
 secp0 = 2025-03-14 07:35:02.420437
 vanhelsing = 2025-03-24 19:44:35.308019
 frag = 2025-03-24 19:24:57.875061
+arkana = 2025-03-25 13:33:38.382512
 
 [Misc]
 redflagdomains = 2025-03-24
