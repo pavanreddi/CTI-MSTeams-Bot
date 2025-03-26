@@ -25,7 +25,7 @@ jobs:
           MSTEAMS_WEBHOOK_FEED: ${{ secrets.MSTEAMS_WEBHOOK_FEED }} 
           MSTEAMS_WEBHOOK_IOC: ${{ secrets.MSTEAMS_WEBHOOK_IOC }} 
         run: |
-          python3 TeamsIntelBot.py -d -r 
+          python3 TeamsIntelBot.py
       - name: save changes
         run: |
           git config --global user.email "bot-parser@users.noreply.github.com"
