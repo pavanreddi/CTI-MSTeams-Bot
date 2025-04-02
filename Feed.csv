@@ -9,7 +9,7 @@
 #https://blog.google/threat-analysis-group/rss/,Google TAG
 #http://feeds.trendmicro.com/TrendMicroResearch,Trend Micro
 https://www.bleepingcomputer.com/feed/,Bleeping Computer
-https://www.proofpoint.com/us/rss.xml,Proof Point
+#https://www.proofpoint.com/us/rss.xml,Proof Point
 http://feeds.feedburner.com/TheHackersNews?format=xml,Hacker News
 #https://www.binarydefense.com/feed/,Binary Defense
 #https://securelist.com/feed/,Securelist
